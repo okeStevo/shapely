@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { BackgroundLines } from "./ui/background-lines";
 import Image from "next/image";
 import { bg } from "../app/public";
+import Link from "next/link";
 export default function BackgroundLinesDemo() {
   const [color, setColor] = useState("FFFFFF");
 
@@ -35,10 +36,10 @@ export default function BackgroundLinesDemo() {
         </span>
         , 
       </p>
-      <button className="border text-sm font-medium relative border-neutral-200 w-[15%] dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full mt-8">
+      <Link href="/explore" className="border text-center text-sm font-medium relative border-neutral-200 w-[15%] dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full mt-8">
         <span>Explore</span>
         <span className="absolute inset-x-0 w-[100%] mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-      </button>
+      </Link>
     </BackgroundLines>
   );
 }

@@ -33,13 +33,8 @@ const reviews = [
     img: "https://avatar.vercel.sh/jenny",
   },
   {
-    name: "soji",
-    username: "@soji",
-    body: "wow, this is thr best of it kind i can start any buisness of my choice.",
-    img: "https://avatar.vercel.sh/james",
-  },.  {
-    name: "soji",
-    username: "@soji",
+    name: "great",
+    username: "@great",
     body: "wow, this is thr bestjjj of it kind i can start any buisness of my choice.",
     img: "https://avatar.vercel.sh/james",
   },

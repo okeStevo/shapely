@@ -11,7 +11,7 @@ export function FloatingNavDemo() {
     },
     {
       name: "About",
-      link: "#about",
+      link: "about",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     // {
@@ -21,7 +21,7 @@ export function FloatingNavDemo() {
     //     <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
     //   ),
     // },
-    
+
   ];
   return (
     <div className="relative  w-full">
