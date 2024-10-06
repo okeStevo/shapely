@@ -17,7 +17,7 @@ export function AccordionDemo() {
             {accordionProvider.map(function ({ content, trigger }: any) {
                 return (
 
-                    <Accordion type="single" collapsible>
+                    <Accordion key={trigger} type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>{trigger}</AccordionTrigger>
                             <AccordionContent>
