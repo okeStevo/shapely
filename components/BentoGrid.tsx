@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 import bg from "@/app/public/exp2.svg"
-import newLo from "@/app/public/new_lo.svg"
+import newLo from "@/app/public/push_the_button.jpeg"
 import amaLo from "@/app/public/ama_loc.jpeg"
 import join from "@/app/public/join.svg"
 import sucStoty from "@/app/public/suc_stories.jpeg"
