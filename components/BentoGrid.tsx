@@ -32,7 +32,7 @@ export function BentoGridDemo() {
     </BentoGrid>
   );
 }
-const Skeleton = ({ logo }) => (
+const Skeleton = ({ logo }: any) => (
   <div className="flex flex-1 w-full bg-center h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
     <Image alt="ss" src={logo} loading="eager" width={100} height={100} className="w-full h-full" />
   </div>
@@ -55,7 +55,7 @@ const items = [
   {
     title: "Success Stories You Must Read!",
     description:
-    
+
       "Hear from entrepreneurs who found their dream spots with us! Get inspired!",
     header: <Skeleton logo={sucStoty} />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
@@ -72,7 +72,7 @@ const items = [
     title: "Join out community today",
     description:
       "Connect with like-minded business enthusiasts and share your journey! Let’s grow together!",
-    header: <Skeleton />,
+    header: <Skeleton logo={sucStoty} />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 ];

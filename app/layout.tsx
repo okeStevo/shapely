@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 import { ThemeProvider } from "@/components/theme-provider";
 import { FloatingNavDemo } from "@/components/FloatingNav";
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: any) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
