@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className="display-flex items-center justify-center">
       {cardData.map((eachData, index) => {
-        return <CardItem key={index} children={eachData.children} name={eachData.name} />;
+        return <CardItem key={index} name={eachData.name} >{eachData.children}</CardItem>;
       })}
     </div>
   );
