@@ -1,5 +1,4 @@
 import { DropDownMenu } from "@/components/dropdown";
-import { PlaceholdersAndVanishInputDemo } from "@/components/placevanish";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import shapeDark from "@/app/public/aa.png"
